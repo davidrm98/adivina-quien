@@ -1,4 +1,5 @@
 #mostrar imagen en pantalla cv2 y nampy 
+import this
 import cv2
 import numpy as np
 
@@ -12,6 +13,7 @@ def imprimir_image(path,num):
 
     cv2.imshow('imagen',resized)
     cv2.waitKey(0)
+    #cv2.setWindowProperty('imagen',cv2.WND_PROP_TOPMOST,1)
     cv2.destroyAllWindows()
 
 
