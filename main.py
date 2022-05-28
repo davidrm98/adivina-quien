@@ -16,11 +16,11 @@ if genero=="hombre":
         edad = input("¿De que edad es tu personaje?")
         if edad=="adulto":
             color_cabello = input("¿De que color tiene el cabello tu personaje?")
-            if color_cabello=="n/a":
+            if color_cabello=="no":
                 color_ropa = input("¿De que color tiene la ropa tu personaje?")
                 if color_ropa=="naranja":
                     bello_facial = input("¿tu personaje tiene barba o bigote?")
-                    if bello_facial=="n/a":
+                    if bello_facial=="no":
                         print ("Tu personaje es Krilin")
                         pruebas.imprimir_image("Imagen/krilin.png",100)
                     if bello_facial=="barba":
@@ -39,7 +39,7 @@ if genero=="hombre":
         edad = input("¿De que edad es tu personaje?")
         if edad=="adulto":
             color_cabello = input("¿De que color tiene el cabello tu personaje?")
-            if color_cabello=="n/a":
+            if color_cabello=="no":
                 color_ropa = input("¿De que color tiene la ropa tu personaje?")
                 if color_ropa=="blanco":
                     print ("Tu personaje es Kami-Sama")
@@ -73,7 +73,7 @@ if genero=="hombre":
                     pruebas.imprimir_image("Imagen/goku.png",100)
                 if color_ropa=="azul":
                     bello_facial = input("¿tu personaje tiene barba o bigote?")
-                    if bello_facial=="n/a":
+                    if bello_facial=="no":
                         rastreador = input("¿tu personaje tiene usa rastreador?")
                         if rastreador=="no":
                             print ("Tu personaje es Gogeta")
@@ -83,7 +83,7 @@ if genero=="hombre":
                             pruebas.imprimir_image("Imagen/vegeta.png",100)
                 if color_ropa=="negro":
                     bello_facial = input("¿tu personaje tiene barba o bigote?")
-                    if bello_facial=="n/a":
+                    if bello_facial=="no":
                         rastreador = input("¿tu personaje tiene usa rastreador?")
                         if rastreador=="no":
                             print ("Tu personaje es Gohan")
